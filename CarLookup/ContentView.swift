@@ -1,16 +1,20 @@
-//
-//  ContentView.swift
-//  CarLookup
-//
-//  Created by Eric Lewis on 8/22/19.
-//  Copyright © 2019 Eric Lewis, Inc. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State var name = ""
+    
     var body: some View {
-        Text("Hello World")
+        ZStack {
+            PreviewView(objectName: $name)
+            .edgesIgnoringSafeArea(.all)
+            VStack {
+                Spacer()
+                Text(name)
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color(UIColor.systemBackground)))
+                .padding()
+            }
+        }
     }
 }
 

@@ -13,6 +13,10 @@
 		6829B416230F3F6A00D78DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6829B415230F3F6A00D78DCB /* Assets.xcassets */; };
 		6829B419230F3F6A00D78DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6829B418230F3F6A00D78DCB /* Preview Assets.xcassets */; };
 		6829B41C230F3F6A00D78DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6829B41A230F3F6A00D78DCB /* LaunchScreen.storyboard */; };
+		6829B42D230F4A1F00D78DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829B42B230F4A1F00D78DCB /* ViewController.swift */; };
+		6829B42E230F4A1F00D78DCB /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829B42C230F4A1F00D78DCB /* VisionObjectRecognitionViewController.swift */; };
+		6829B432230F54C400D78DCB /* CarRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6829B431230F54C400D78DCB /* CarRecognition.mlmodel */; };
+		6829B47923103D0500D78DCB /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829B47823103D0500D78DCB /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6829B418230F3F6A00D78DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6829B41B230F3F6A00D78DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6829B41D230F3F6A00D78DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6829B42B230F4A1F00D78DCB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6829B42C230F4A1F00D78DCB /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		6829B431230F54C400D78DCB /* CarRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarRecognition.mlmodel; sourceTree = "<group>"; };
+		6829B47823103D0500D78DCB /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				6829B40F230F3F6500D78DCB /* AppDelegate.swift */,
 				6829B411230F3F6500D78DCB /* SceneDelegate.swift */,
 				6829B413230F3F6500D78DCB /* ContentView.swift */,
+				6829B47823103D0500D78DCB /* PreviewView.swift */,
+				6829B42B230F4A1F00D78DCB /* ViewController.swift */,
+				6829B42C230F4A1F00D78DCB /* VisionObjectRecognitionViewController.swift */,
+				6829B431230F54C400D78DCB /* CarRecognition.mlmodel */,
 				6829B415230F3F6A00D78DCB /* Assets.xcassets */,
 				6829B41A230F3F6A00D78DCB /* LaunchScreen.storyboard */,
 				6829B41D230F3F6A00D78DCB /* Info.plist */,
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6829B42D230F4A1F00D78DCB /* ViewController.swift in Sources */,
 				6829B410230F3F6500D78DCB /* AppDelegate.swift in Sources */,
+				6829B47923103D0500D78DCB /* PreviewView.swift in Sources */,
 				6829B412230F3F6500D78DCB /* SceneDelegate.swift in Sources */,
+				6829B42E230F4A1F00D78DCB /* VisionObjectRecognitionViewController.swift in Sources */,
+				6829B432230F54C400D78DCB /* CarRecognition.mlmodel in Sources */,
 				6829B414230F3F6500D78DCB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
