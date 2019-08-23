@@ -6,12 +6,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             PreviewView(objectName: $name)
-            .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer()
-                Text(name)
-                    .padding()
-                    .background(RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color(UIColor.systemBackground)))
+                HStack {
+                    Spacer()
+                    Text(name)
+                        .padding()
+                    Spacer()
+                }
+                .background(RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color(UIColor.systemBackground)))
                 .padding()
             }
         }
